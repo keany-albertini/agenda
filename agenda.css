@@ -1,3 +1,63 @@
+
+
+header{
+	position: fixed;
+	background-color: rgba(245, 245, 245, .7);
+		padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+ul{
+	display: flex;
+}
+
+li{
+	margin-left: 35px;
+	margin-right: 35px;
+	list-style-type: none;
+	background-color: whitesmoke;
+	padding: 5px;
+
+}
+
+header{
+
+
+}
+
 body{
-	background-color: red;
+	    background-repeat: no-repeat;
+    background-size: cover;	
+	background: fixed;
+	background-image: url(http://papillondereve.p.a.pic.centerblog.net/o/18f4cd9a.jpg);
+}
+
+main{
+	justify-content: center;
+	display: flex;
+
+}
+
+
+th{
+		margin-top: 50px;
+	border:solid 2px black;
+}
+td{		
+	text-align: center;
+	margin-top: 50px;
+	border:solid 2px black;
+	width: 150px;
+	height: 150px;
+}
+
+h1{
+	background-color: rgba(250, 128,114, .7);
+}
+
+.tableau{
+		background-color: rgba(245, 245, 245, .7);
+	margin-top: 110px;
+
 }
