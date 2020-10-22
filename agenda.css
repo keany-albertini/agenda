@@ -1,63 +1,87 @@
-
+h3{
+	width: 300px;
+	justify-content: center;
+	border: solid 2px #c4c4c4;
+	margin-left: 35px;
+	margin-right: 35px;
+	background-color: whitesmoke;
+	padding: 5px;
+}
 
 header{
 	position: fixed;
 	background-color: rgba(245, 245, 245, .7);
-		padding-top: 10px;
+	padding-top: 10px;
 	padding-bottom: 10px;
-
-}
-
-ul{
-	display: flex;
-}
-
-li{
-	margin-left: 35px;
-	margin-right: 35px;
-	list-style-type: none;
-	background-color: whitesmoke;
-	padding: 5px;
-
-}
-
-header{
-
-
+	justify-content: center;
+	display:  flex;
+	width: 100%;
 }
 
 body{
-	    background-repeat: no-repeat;
+	display: flex;
+	background-repeat: no-repeat;
     background-size: cover;	
 	background: fixed;
 	background-image: url(http://papillondereve.p.a.pic.centerblog.net/o/18f4cd9a.jpg);
 }
 
-main{
-	justify-content: center;
-	display: flex;
+.sport{
+	background-color: rgba(131, 139, 164, .4);
+}
+
+.ecole1{
+	font-size: 50px;
+	background-color: rgba(240, 184, 122, .4);
+	border:transparent;
+}
+
+.midi{
+	font-size: 50px;
+	background-color: rgba(236, 155, 157, .4);
+	border:transparent;
+}
+
+.dimanche{
+	background-color: rgba(151, 190, 226, .4);
+	border-top: transparent;
+	border-bottom: transparent;
 
 }
 
-
-th{
-		margin-top: 50px;
-	border:solid 2px black;
-}
-td{		
+th{		
 	text-align: center;
-	margin-top: 50px;
-	border:solid 2px black;
+	padding-left: 60px;
+}
+
+td{		
+	background-color: rgba(245, 245, 245, .7);
+	text-align: center;
+	border:solid 2px #c4c4c4;
 	width: 150px;
 	height: 150px;
 }
-
-h1{
-	background-color: rgba(250, 128,114, .7);
+.thfixed{
+	font-size: 25px;
+	margin-left: 60px;
 }
 
-.tableau{
-		background-color: rgba(245, 245, 245, .7);
-	margin-top: 110px;
 
+ul{
+	position: fixed;
+
+	display: flex;
+	padding-bottom: 20px;
+	margin-top:130px;
+	list-style-type: none;
+	padding-left: 100px;
+	background-color: rgba(245, 245, 245, .7);
+}
+
+
+
+
+.tableau{
+	margin-top: 200px;
+		background-color: rgba(245, 245, 245, .7);
 }
