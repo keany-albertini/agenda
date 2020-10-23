@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="agenda.css">
 	<title>Mon agenda</title>
 </head>
 <body>
 	<header>
-		<h3>Bienvenue sur mon agenda</h3>
+
+		<h3><a class="lien" href="agenda.html"> Mon agenda</a></h3>
+		<h3><a class="lien" href="formulaire.html"> Le formulaire</a></h3>
 
 	</header>
 
@@ -14,108 +17,91 @@
 <main>
 
 		
-		<ul>
-			
-			<li></li>
-			<li class="thfixed">1 Janvier</li>
-			<li class="thfixed">2 Janvier</li>
-			<li class="thfixed">3 Janvier</li>
-			<li class="thfixed">4 Janvier</li>
-			<li class="thfixed">5 Janvier</li>
-			<li class="thfixed">6 Janvier</li>
-			<li class="thfixed">7 Janvier</li>
-
-		</ul>
 
 <table class="tableau">
-		<tr>
-			<th>8h-9h</th>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td></td>
-			<td class="dimanche">repos</td>
+	<thead class="sticky">
+		<tr >
+			<th></th>
+			<th>1 janvier</th>
+			<th>2 janvier</th>
+			<th>3 janvier</th>
+			<th>4 janvier</th>
+			<th>5 janvier</th>
+			<th>6 janvier</th>
+			<th>7 janvier</th>
 		</tr>
-		<tr>
-			<th>9h-10h</th>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td></td>
-			<td class="dimanche">repos</td>
-		</tr>
-		<tr>
-			<th>10h-11h</th>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td></td>
-			<td class="dimanche">repos</td>
-		</tr>
-		<tr>
-			<th>11h-12h</th>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td></td>
-			<td class="dimanche">repos</td>
-		</tr>
-		<tr>
-			<th>12h-13h</th>
-			<td colspan="5" class="midi">Bon Appetit</td>
-			<td></td>
-			<td class="dimanche">repos</td>
-
-		</tr>
-				</tr>
-			<tr>
-			<th>13h-14h</th>
-			<td class="sport">Gym</td>
-			<td class="ecole1"></td>
-			<td class="sport">Gym</td>
-			<td class="ecole1"></td>
-			<td class="sport">Gym</td>
-			<td></td>
-			<td class="dimanche">repos</td>
-
-		</tr>
-				</tr>
-			<tr>
-			<th>14h-15h</th>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td></td>
-			<td class="dimanche">repos</td>
-
-		</tr>
-				</tr>
-			<tr>
-			<th>15h-16h</th>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td class="ecole1"></td>
-			<td></td>
-			<td class="dimanche">repos</td>
-
-		</tr>
-	</table>
-
-		
+	</thead>
+	<tr>
+		<th>8h-9h</th>
+		<td rowspan="2" class="ecole1">math<br><p>Mr Patapouf<br>salle: 113</p></td>
+		<td class="ecole1">francais <br><p>Mme Bonvent<br>salle: 118</p></td>
+		<td class="ecole1">math<br><p>Mr Patapouf<br>salle: 113</p></td>
+		<td class="ecole1">histoire<br><p>Mr Culet<br>salle: 101</p></td>
+		<td class="ecole1">anglais<br><p>Mme Martin<br>salle: 125</p></td>
+		<td class="disponible">Disponible</td>
+		<td rowspan="2" class="nature"><br><p>Promenade au Parc<br>Parc Pastré</p></td>
+	</tr>
+	<tr>
+		<th>9h-10h</th>
+		<td class="ecole1">espagnol<br><p>Mme Rodriguez<br>salle: 103</p></td>
+		<td class="ecole1">SVT<br><p>Mr Pello<br>salle: 106</p></td>
+		<td rowspan="2" class="ecole1">EPS<br><p>Mr Boucan<br>stade</p></td>
+		<td class="ecole1">physique-chime <br><p>Mme Boubou<br>salle: 107</p></td>
+		<td class="rdv"><p>rendez-vous:<br>Chez le dentiste<br>(4 Bd de la Corderie)</p></td>
+	</tr>
+	<tr>
+		<th>10h-11h</th>
+		<td class="ecole1">art plastique</td>
+		<td class="ecole1">histoire<br><p>Mr Culet<br>salle: 101</p></td>
+		<td class="ecole1">anglais<br><p>Mme Martin<br>salle: 125</p></td>
+		<td class="disponible">Disponible</td>
+		<td class="disponible">Disponible</td>
+		<td class="dimanche">repos</td>
+	</tr>
+	<tr>
+		<th>11h-12h</th>
+		<td class="ecole1">physique-chime <br><p>Mme Boubou<br>salle: 107</p></td>
+		<td class="ecole1">anglais<br><p>Mme Martin<br>salle: 125</p></td>
+		<td class="disponible">Disponible</td>
+		<td class="disponible">Disponible</td>
+		<td class="ecole1">musique</td>
+		<td class="disponible">Disponible</td>
+		<td class="dimanche">repos</td>
+	</tr>
+	<tr>
+		<th>12h-13h</th>
+		<td colspan="5" class="midi">Bon appétit</td>
+		<td class="disponible">Disponible</td>
+		<td class="rdv">Barbecue<br><p>Anniversaire de :<br>Guillaume</p></td>
+	</tr>
+	<tr>
+		<th>13h-14h</th>
+		<td class="sport">Gym</td>
+		<td class="disponible">Disponible</td>
+		<td class="sport">Gym</td>
+		<td class="disponible">Disponible</td>
+		<td class="sport">Gym</td>
+		<td class="disponible">Disponible</td>
+		<td class="dimanche">repos</td>
+	</tr>
+	<tr>
+		<th>14h-15h</th>
+		<td rowspan="2" class="nature">pétanque</td>
+		<td rowspan="2" class="ecole1">anglais<br><p>Mme Martin<br>salle: 125</p></td>
+		<td colspan="2" class="nature">Football</td>
+		<td rowspan="2" class="ecole1">philosophie<br><p>Mme Dégun<br>salle: 137</p></td>
+		<td class="disponible">Disponible</td>
+		<td class="dimanche">repos</td>
+	</tr>
+	<tr>
+		<th>15h-16h</th>
+		<td class="disponible">Disponible</td>
+		<td class="disponible">Disponible</td>
+		<td class="disponible">Disponible</td>
+		<td class="dimanche">repos</td>
+	</tr>
+</table>		
 </main>
-
 </body>
 </html>
 
